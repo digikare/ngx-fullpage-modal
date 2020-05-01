@@ -1,0 +1,12 @@
+<div [@changeState]="animation" class="modal">
+  <div class="title">
+    <div class="content-title">
+      <ng-content select="[fullPageTitle]"></ng-content>
+    </div>
+    <div class="close" (click)="onClose.emit()">
+      {{ closeText }}
+    </div>
+  </div>
+
+  <ng-content select="[fullPageContent]" class="content"></ng-content>
+</div>

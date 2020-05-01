@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngx-fullpage-modal-repo';
+  show = false;
+  showExample1 = false;
+  showExample2 = false;
+  onShowModalEx1() {
+    this.showExample1 = !this.showExample1;
+  }
+  onShowModalEx2() {
+    this.showExample2 = !this.showExample2;
+  }
 }

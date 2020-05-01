@@ -1,0 +1,43 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba($color: #000000, $alpha: 0.4);
+  height: 100vh;
+
+  .modal {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    & .title {
+      border-bottom: 1px solid rgba($color: #333333, $alpha: 0.2);
+      min-height: 32px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      color: #353648;
+      display: grid;
+      grid-template-columns: 1fr 0fr;
+      align-content: center;
+
+      & .content-title,
+      & .close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      & .close {
+        margin-right: 16px;
+        color: #3880ff;
+        font-weight: 300;
+      }
+    }
+
+    & .content {
+      margin: 0;
+    }
+  }
+}

@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-fullpage-modal": [
+        "dist/ngx-fullpage-modal/ngx-fullpage-modal",
+        "dist/ngx-fullpage-modal"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
