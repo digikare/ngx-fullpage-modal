@@ -1,12 +1,20 @@
-<div [@changeState]="animation" class="modal">
-  <div class="title">
-    <div class="content-title">
+<div [@changeState]="animation" class="ngx-fullpage-modal-modal">
+  <div class="ngx-fullpage-modal-title">
+    <div class="ngx-fullpage-modal-content-title">
       <ng-content select="[fullPageTitle]"></ng-content>
     </div>
-    <div class="close" (click)="onClose.emit()">
+    <div class="ngx-fullpage-modal-close" (click)="onClose.emit()">
       {{ closeText }}
     </div>
   </div>
 
-  <ng-content select="[fullPageContent]" class="content"></ng-content>
+  <ng-content
+    select="[fullPageContent]"
+    class="ngx-fullpage-modal-content"
+  ></ng-content>
+
+  <ng-content
+    select="[fullPageFooter]"
+    class="ngx-fullpage-modal-footer"
+  ></ng-content>
 </div>

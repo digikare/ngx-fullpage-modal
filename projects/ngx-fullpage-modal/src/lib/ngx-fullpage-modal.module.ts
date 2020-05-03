@@ -7,8 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [NgxFullpageModalComponent],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule
   ],
   exports: [NgxFullpageModalComponent]
 })

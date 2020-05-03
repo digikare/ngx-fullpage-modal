@@ -1,9 +1,29 @@
 {
   "name": "@digikare/ngx-fullpage-modal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
     "tslib": "^1.10.0"
-  }
+  },
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digikare/ngx-fullpage-modal.git"
+  },
+  "keywords": [
+    "angular",
+    "modal",
+    "ngx"
+  ],
+  "author": "Johan Pujol <jpujol@digikare.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digikare/ngx-fullpage-modal/issues"
+  },
+  "homepage": "https://github.com/digikare/ngx-fullpage-modal#readme"
 }

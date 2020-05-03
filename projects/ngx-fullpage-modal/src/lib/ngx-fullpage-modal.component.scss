@@ -7,12 +7,12 @@
   background: rgba($color: #000000, $alpha: 0.4);
   height: 100vh;
 
-  .modal {
+  .ngx-fullpage-modal-modal {
     padding: 0;
     margin: 0;
     height: 100vh;
 
-    & .title {
+    & .ngx-fullpage-modal-title {
       border-bottom: 1px solid rgba($color: #333333, $alpha: 0.2);
       min-height: 32px;
       text-align: center;
@@ -23,21 +23,29 @@
       grid-template-columns: 1fr 0fr;
       align-content: center;
 
-      & .content-title,
-      & .close {
+      & .ngx-fullpage-modal-content-title,
+      & .ngx-fullpage-modal-close {
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      & .close {
+      & .ngx-fullpage-modal-close {
         margin-right: 16px;
         color: #3880ff;
         font-weight: 300;
       }
     }
 
-    & .content {
+    & .ngx-fullpage-modal-content {
       margin: 0;
+    }
+
+    & .ngx-fullpage-modal-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      min-height: 32px;
     }
   }
 }
